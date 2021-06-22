@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+
+}
+#canvas {
+  margin: auto;
+}
+.box {
+  display: block;
+  margin-left: 5px;
+}
+a {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  color: blue;
+}
+a:hover {
+  margin-left: 20px;
+  color: red;
+  transition: all 0.2s ease-in-out;
+}
